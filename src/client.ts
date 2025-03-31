@@ -8,7 +8,7 @@ import {
   AutentiqueiApiErrorData
 } from './types';
 
-const DEFAULT_BASE_URL = 'https://sua-api.com/api'; // <<< SUBSTITUA PELA SUA URL DE PRODUÇÃO >>>
+const DEFAULT_BASE_URL = 'https://secure.autentiquei.app/api';
 
 export class AutentiqueiSDK {
   private apiClient: AxiosInstance;

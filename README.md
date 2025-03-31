@@ -22,7 +22,6 @@ import { AutentiqueiSDK } from 'autentiquei-sdk'; // ou '@autentiquei/sdk'
 // Crie uma instância do SDK com sua chave de API
 const autentiquei = new AutentiqueiSDK({
   apiKey: 'autq_SEU_TOKEN_DE_API_AQUI'
-  // baseURL: 'https://api.autentiquei.app/api' // Opcional: URL base da API
 });
 
 // Exemplo: Enviar um código de verificação
