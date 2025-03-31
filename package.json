@@ -1,0 +1,35 @@
+{
+  "name": "@autentiquei/sdk",
+  "version": "0.1.0",
+  "description": "SDK oficial para Node.js/TypeScript da API Autentiquei",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "URL_DO_SEU_REPOSITORIO_GIT_AQUI"
+  },
+  "keywords": [
+    "autentiquei",
+    "2fa",
+    "whatsapp",
+    "sms",
+    "api",
+    "sdk"
+  ],
+  "author": "Autentiquei <contato@autentiquei.app>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
