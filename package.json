@@ -1,5 +1,5 @@
 {
-  "name": "@autentiquei/sdk",
+  "name": "autentiquei-sdk",
   "version": "0.1.0",
   "description": "SDK oficial para Node.js/TypeScript da API Autentiquei",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "URL_DO_SEU_REPOSITORIO_GIT_AQUI"
+    "url": "https://github.com/paginare/autentiquei-node-ts-sdk"
   },
   "keywords": [
     "autentiquei",
